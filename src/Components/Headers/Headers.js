@@ -18,7 +18,7 @@ const Headers = () => {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/topics">Topics</Link>
+                                <Link className="nav-link active" aria-current="page" to="/">Topics</Link>
                             </li>
 
                             <li className="nav-item">

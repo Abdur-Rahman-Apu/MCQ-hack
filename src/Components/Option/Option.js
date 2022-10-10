@@ -9,7 +9,7 @@ const Option = ({ option, index, id, checkAns, correctAnswer }) => {
                 <div >
                     <input onClick={(e) => checkAns(e.target.value, correctAnswer)} className="form-check-input" type="radio" name="flexRadioDefault" value={option} id={`${id}radio${index}`} />
                 </div>
-                <label onClick={(e) => checkAns(e.target, correctAnswer)} className="form-check-label" htmlFor={`${id}radio${index}`}>
+                <label className="form-check-label" htmlFor={`${id}radio${index}`}>
                     {option}
                 </label>
             </div>
