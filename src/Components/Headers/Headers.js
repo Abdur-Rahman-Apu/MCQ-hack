@@ -7,7 +7,7 @@ const Headers = () => {
         <div>
             <nav className="navbar navbar-expand-lg bg-light shadow-sm">
                 <div className="container">
-                    <Link class="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/">
                         <img src="brain.png" alt="icon" width="50" height="50" />
                     </Link>
                     <Link className="navbar-brand fw-bold" to='\'>MCQ Hack</Link>
