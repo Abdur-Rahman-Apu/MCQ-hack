@@ -3,8 +3,8 @@ import Option from '../Option/Option';
 import './Question.css';
 
 const Question = ({ questions, index, checkAns }) => {
-    console.log(checkAns);
-    const { question, options, id } = questions;
+
+    const { question, options, id, correctAnswer } = questions;
 
 
 
@@ -18,7 +18,7 @@ const Question = ({ questions, index, checkAns }) => {
 
                 <div className="card-body">
                     <div className="options row justify-content-around">
-                        {options.map((option, idx) => <Option key={idx} option={option} index={idx} id={id} checkAns={checkAns}></Option>)}
+                        {options.map((option, idx) => <Option key={idx} option={option} index={idx} id={id} checkAns={checkAns} correctAnswer={correctAnswer}></Option>)}
                     </div>
                 </div>
             </div>
