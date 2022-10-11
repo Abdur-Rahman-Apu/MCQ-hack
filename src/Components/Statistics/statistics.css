@@ -5,8 +5,15 @@
 
 
 
-@media screen and (max-width:400px) {
-    .chart-container {
-        width: 100px;
+
+@media screen and (max-width:1163px) {
+
+
+    .recharts-responsive-container {
+        width: 100% !important;
     }
+
+
+
+
 }

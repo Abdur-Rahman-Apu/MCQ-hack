@@ -15,7 +15,7 @@ const Statistics = () => {
             <div className=' d-flex flex-column align-items-center justify-content-around chart-container container-fluid'>
                 <ResponsiveContainer width="30%" height={300}>
                     <BarChart data={data}>
-                        <XAxis dataKey="name" />
+                        <XAxis dataKey="name" angle={10} tickMargin={10} fontSize={16} />
                         <YAxis />
                         <Tooltip />
                         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
