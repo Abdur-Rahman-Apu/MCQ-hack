@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Main from './layouts/Main';
 import Topics from './Components/Topics/Topics';
 import Quiz from './Components/Quiz/Quiz';
+import Statistics from './Components/Statistics/Statistics';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -22,6 +24,14 @@ function App() {
           },
           element: <Quiz></Quiz>
         },
+        {
+          path: '/statistics',
+          element: <Statistics></Statistics>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
+        }
       ]
     },
   ]);

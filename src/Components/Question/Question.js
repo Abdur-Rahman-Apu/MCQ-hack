@@ -2,18 +2,15 @@ import React from 'react';
 import Option from '../Option/Option';
 import './Question.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faEye } from '@fortawesome/free-solid-svg-icons';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const Question = ({ questions, index, checkAns }) => {
+const Question = ({ questions, index, checkAns, showAns }) => {
 
     const { question, options, id, correctAnswer } = questions;
 
-    const showAns = (ans) => {
-        toast.info(`Correct answer is: ${ans}`, { position: 'top-center', closeOnClick: false, });
-    }
 
 
     return (
@@ -22,7 +19,7 @@ const Question = ({ questions, index, checkAns }) => {
                 <div className="card w-75 mt-4 p-4">
                     <div className="card-title my-3 d-flex justify-content-around">
                         <h6 className='text-center'>Quiz {index + 1}: {question}</h6>
-                        <FontAwesomeIcon onClick={() => showAns(correctAnswer)} icon={faLock} />
+                        <FontAwesomeIcon onClick={() => showAns(correctAnswer)} icon={faEye} />
 
                     </div>
 
@@ -34,7 +31,7 @@ const Question = ({ questions, index, checkAns }) => {
                 </div>
 
             </div>
-            <ToastContainer />
+
         </div>
 
     );

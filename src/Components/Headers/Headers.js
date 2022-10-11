@@ -8,7 +8,7 @@ const Headers = () => {
             <nav className="navbar navbar-expand-lg bg-light shadow-sm">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
-                        <img src="brain.png" alt="icon" width="50" height="50" />
+                        <img src={'/brain.png'} alt="icon" width="50" height="50" />
                     </Link>
                     <Link className="navbar-brand fw-bold" to='\'>MCQ Hack</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

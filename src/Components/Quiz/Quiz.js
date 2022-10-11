@@ -28,6 +28,11 @@ const Quiz = () => {
         }
     }
 
+    const showAns = (ans) => {
+        toast.info(`Correct answer is: ${ans}`, { position: 'top-center', closeOnClick: false, });
+    }
+
+
 
 
     return (
@@ -35,7 +40,7 @@ const Quiz = () => {
             <h3 className='text-center'>Quiz of {name}</h3>
             <div className="col-10 mt-4">
                 {
-                    questions.map((q, index) => <Question questions={q} key={index} index={index} checkAns={checkAns}></Question>)
+                    questions.map((q, index) => <Question questions={q} key={index} index={index} checkAns={checkAns} showAns={showAns}></Question>)
                 }
             </div>
             <div className="col-2 mt-4 result-section">
