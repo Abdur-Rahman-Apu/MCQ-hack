@@ -1,3 +1,12 @@
 .chart-container {
     min-height: 80vh;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:400px) {
+    .chart-container {
+        width: 100px;
+    }
 }

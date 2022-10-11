@@ -13,7 +13,7 @@ const Topics = () => {
             <Banner></Banner>
 
             <section className='mt-5 topics-section'>
-                <h4 className='fw-bold'>Select topics:</h4>
+                <h4 className='fw-bold mb-3 ms-3'>Select topics:</h4>
 
                 <div className='container-fluid row topic-container '>
                     {

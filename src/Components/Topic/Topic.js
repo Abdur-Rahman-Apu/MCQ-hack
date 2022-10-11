@@ -8,7 +8,7 @@ import { faArrowRight, faQuestionCircle } from '@fortawesome/free-solid-svg-icon
 const Topic = ({ topic }) => {
     const { id, name, logo, total } = topic;
     return (
-        <div className='col-3'>
+        <div className='col-12 col-md-6 col-lg-3 mb-4'>
             <div className="card">
                 <img src={logo} className="card-img-top img-fluid" alt={logo} />
                 <div className="card-body d-flex justify-content-between align-items-center">
