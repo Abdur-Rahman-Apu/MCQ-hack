@@ -10,7 +10,7 @@ const Statistics = () => {
     };
     return (
         <div >
-            <h5 className='text-center'>Total questions on each topic</h5>
+            <h5 className='text-center mt-3'>Total questions on each topic</h5>
 
             <div className=' d-flex flex-column align-items-center justify-content-around chart-container container-fluid'>
                 <ResponsiveContainer width="30%" height={300}>
