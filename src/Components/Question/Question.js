@@ -2,9 +2,8 @@ import React from 'react';
 import Option from '../Option/Option';
 import './Question.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faEye } from '@fortawesome/free-solid-svg-icons';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const Question = ({ questions, index, checkAns, showAns }) => {
