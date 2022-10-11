@@ -43,13 +43,16 @@ const Blog = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingThree">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What is useRef in the the React router?
+                                <span className='fw-bold me-2'>Question: 3 </span> What is useRef in React?
                             </button>
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                            <p className='mt-2'>The useRef hook accepts one argument as the initial value and returns a reference object which is mutable and it is known as current. The useRef hook can be used to store a mutable value that does not cause a re-render when updated</p>
+                            <span className='fw-bold ms-3'>Syntax</span>
+                            <p>const refContainer = useRef(initialValue);</p>
+                            <p>Firstly, we set the initial value: useRef(0). It is same as: </p>
+                            <img className='img-fluid ms-3' src={'/useRef.png'} alt="useRef" />
+                            <p>We can access the count using count.current.</p>
                         </div>
                     </div>
                 </div>
