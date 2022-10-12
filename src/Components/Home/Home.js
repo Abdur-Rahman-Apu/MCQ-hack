@@ -1,15 +1,14 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Banner from '../Banner/Banner';
 import Topic from '../Topic/Topic';
-import './Topics.css';
 
-const Topics = () => {
+const Home = () => {
     const topics = useLoaderData().data;
     console.log(topics);
     return (
-
         <div>
-
+            <Banner></Banner>
 
             <section className='mt-5 topics-section'>
                 <h4 className='fw-bold mb-3 ms-3 topic-title'>Select <span className='title'>topics</span> :</h4>
@@ -21,8 +20,7 @@ const Topics = () => {
                 </div>
             </section>
         </div>
-
     );
 };
 
-export default Topics;
+export default Home;

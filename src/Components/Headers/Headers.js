@@ -19,7 +19,11 @@ const Headers = () => {
 
 
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">Topics</Link>
+                                <Link className="nav-link" to="/">Home</Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/topics">Topics</Link>
                             </li>
 
                             <li className="nav-item">
