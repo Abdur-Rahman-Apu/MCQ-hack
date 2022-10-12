@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap');
 
+.banner-container {
+    margin-bottom: 4.6em;
+}
+
 .banner-title h1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -16,8 +20,4 @@
 
 .title-info {
     font-family: 'Open Sans', sans-serif;
-}
-
-.blockquote-container p {
-    color: black;
 }
