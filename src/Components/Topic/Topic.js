@@ -18,7 +18,7 @@ const Topic = ({ topic }) => {
                         <p className='m-0'><FontAwesomeIcon className='question-icon' icon={faQuestionCircle} /> {total}</p>
                     </div>
 
-                    <Link to={`quiz/${id}`} className="btn btn-primary">Start quiz
+                    <Link to={`quiz/${id}`} className="btn">Start quiz
                         <FontAwesomeIcon icon={faArrowRight} className="ms-1" /></Link>
                 </div>
             </div>

@@ -1,3 +1,8 @@
 .topics-section {
     margin-left: 30px;
 }
+
+.topic-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
