@@ -15,7 +15,7 @@ const Topic = ({ topic }) => {
                     <div className='d-flex flex-column'>
                         <h6 className="card-title fw-bold">{name}</h6>
 
-                        <p className='m-0'><FontAwesomeIcon icon={faQuestionCircle} /> {total}</p>
+                        <p className='m-0'><FontAwesomeIcon className='question-icon' icon={faQuestionCircle} /> {total}</p>
                     </div>
 
                     <Link to={`quiz/${id}`} className="btn btn-primary">Start quiz

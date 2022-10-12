@@ -1,1 +1,26 @@
-.result-section {}
+.result-section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #706fd3;
+}
+
+.quiz-name {
+    color: #706fd3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.result {
+    padding: 10px;
+    background-color: rgba(112, 111, 211, 0.2);
+}
+
+.correct-text,
+.wrong-text {
+    font-family: 'Roboto', sans-serif;
+    color: #706fd3;
+}
+
+/* .score-card {
+    position: sticky;
+    top: 0;
+} */

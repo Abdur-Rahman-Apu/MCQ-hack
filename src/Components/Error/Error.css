@@ -1,5 +1,6 @@
 .error-img {
     height: 80vh;
+    color: #3498db;
 }
 
 .error-img h3 {
@@ -9,4 +10,5 @@
 .error-img p {
     color: #3498db;
     margin: 0;
+
 }
