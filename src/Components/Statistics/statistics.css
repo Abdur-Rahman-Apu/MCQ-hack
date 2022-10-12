@@ -3,7 +3,10 @@
     width: 100%;
 }
 
-
+.statistics-section-title {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(112, 111, 211, 1.0);
+}
 
 
 @media screen and (max-width:1163px) {

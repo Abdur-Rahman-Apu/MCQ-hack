@@ -6,11 +6,11 @@ import './statistics.css';
 const Statistics = () => {
     const data = useLoaderData().data;
     const renderCustomBarLabel = ({ payload, x, y, width, height, value }) => {
-        return <text x={x + width / 2} y={y} fill="#666" textAnchor="middle" dy={-6}>{`value: ${value}`}</text>;
+        return <text x={x + width / 2} y={y} fill="#666" textAnchor="middle" dy={-6}>{`${value}`}</text>;
     };
     return (
         <div >
-            <h5 className='text-center mt-3'>Total questions on each topic</h5>
+            <h5 className='text-center mt-3 statistics-section-title'>Total questions on each topic</h5>
 
             <div className=' d-flex flex-column align-items-center justify-content-around chart-container container-fluid'>
                 <ResponsiveContainer width="30%" height={300}>
