@@ -36,14 +36,14 @@ const Quiz = () => {
 
 
     return (
-        <div className='container row mt-5'>
+        <div className='container-fluid row mt-5'>
             <h3 className='text-center'>Quiz of {name}</h3>
-            <div className="col-10 mt-4">
+            <div className="col-9 mt-4">
                 {
                     questions.map((q, index) => <Question questions={q} key={index} index={index} checkAns={checkAns} showAns={showAns}></Question>)
                 }
             </div>
-            <div className="col-2 mt-4 result-section">
+            <div className="col-3 mt-4 result-section">
                 <h3 className=' text-center'>Result</h3>
                 <h5>Correct: {correct}</h5>
                 <h5>Wrong: {wrong}</h5>

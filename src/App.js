@@ -34,7 +34,7 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
-        }
+        },
       ]
     },
     {

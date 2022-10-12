@@ -15,7 +15,7 @@ const Question = ({ questions, index, checkAns, showAns }) => {
     return (
         <div>
             <div className='d-flex justify-content-center'>
-                <div className="card w-75 mt-4 p-4">
+                <div className="card w-75 mt-5 p-4 shadow">
                     <div className="card-title my-3 d-flex justify-content-around">
                         <h6 className='text-center me-3'>Quiz {index + 1}: {question}</h6>
                         <FontAwesomeIcon onClick={() => showAns(correctAnswer)} icon={faEye} />
